@@ -15,6 +15,6 @@ public class ExceptionTest {
             e.printStackTrace();
             throw new SysException("除数为零");
         }
-        return "";
+        return "success";
     }
 }
